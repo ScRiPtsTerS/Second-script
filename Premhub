@@ -2519,8 +2519,8 @@ MainKey:NewButton("Check Key", "checks if its the right key", function()
     end
 end)
 
-MainKey:NewButton("Get Key", "copys key link", function()
+--[[ MainKey:NewButton("Get Key", "copys key link", function()
     setclipboard("https://raw.githubusercontent.com/ScRiPtsTerS/GigaChadKe/main/key")
     Notification.new("info", "Key", "key link is copied to clipboard!")
-end)
+end)]]
         
